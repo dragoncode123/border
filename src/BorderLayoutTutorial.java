@@ -18,7 +18,7 @@ public class BorderLayoutTutorial {
 		frame.add(btn3, BorderLayout.CENTER);
 		frame.add(btn4, BorderLayout.WEST);
 		frame.add(btn5, BorderLayout.EAST);
-		
+		System.out.print("hai");
 		frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		frame.pack();
 		frame.setVisible(true);
